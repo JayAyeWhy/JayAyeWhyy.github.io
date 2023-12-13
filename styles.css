@@ -1,0 +1,202 @@
+:root {
+  --MyLapos: #33658A;
+  --MyBlue: #86BBD8;
+  --MyGreen: #758E4F;
+  --MyYellow: #F6AE2D;
+  --MyOrange: #F26419;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+  }
+  .title{
+    background-color: var(--MyBlue);
+    font-size: 5rem;
+    text-align:center;
+    font-family: 'Caveat', cursive;
+  }
+  .navbar nav {
+      background-color: var(--MyBlue);
+      font-size: 1.2rem;
+      padding: 1px;
+      
+    }
+    
+   .navbar nav ul {
+      color: white;
+      list-style: none;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      justify-content: center;
+      border-bottom: 3px solid black;
+    }
+    
+   .navbar nav a {
+    color: white;
+    text-decoration: none;
+  }
+  .navbar nav li {
+    color: #333;
+      background-color: var(--MyLapos);
+      border-style: solid;
+      border-color: #000000;
+      border-width: 1px;
+      border-radius: 5px;
+      display: block;
+      margin: 10px;
+      padding: 5px;
+  }
+  .s1{
+    padding-top: 20px;
+    box-shadow: 8px 8px;
+    font-size:1rem;
+    background-color: var(--MyYellow);
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 15px;
+    margin-right: 20px;
+  }
+    .s1 p{
+      font-size: 20px;
+      margin: 20px;
+
+  }
+  .bodyflex{
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    background-color: var(--MyBlue);
+  }
+  .box {
+    min-height: 200px;
+    min-width: 100px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 49px;
+    background-color: var(--MyYellow);
+  }
+  .container {
+    height: 300px;
+    max-width: 800px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--MyBlue);
+    border-radius: 10px;
+  }
+  .box a {
+      color: #333;
+      background-color: var(--MyOrange);
+      border-style: solid;
+      border-color: #000000;
+      border-width: 1px;
+      border-radius: 5px;
+      display: block;
+      margin: 10px;
+      padding: 5px;
+  }
+.bodytext {
+  padding-top: 20px;
+  text-align: center;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 300px;
+}
+.bodytext nav{
+  height: 500px;
+  padding-top:20px;
+  color: #333;
+  text-align: left;
+  background-color: #f2f2f2;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 5px;
+  display: flex;
+  margin: 10px;
+  padding: 5px;
+}
+.bodytext ol{
+  padding-left: 20px;
+  font-size: large;
+}
+.background{
+  background-color: var(--MyBlue);
+  max-height: 500px;
+}
+.background2{
+  background-color: var(--MyBlue);
+  height: 790px;
+}
+.container2{
+    height: 400px;
+    width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: var(--MyBlue);
+    border-radius: 10px;
+}
+.contact{
+  text-align:center;
+}
+.bodyflex p{
+  max-height: 200px;
+}
+
+@media only screen and (max-width: 320px){
+  main{
+     padding: 0px;
+}
+}
+html {      
+  background-size: cover;
+}
+.buttonbox {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 10px;
+  
+}
+
+
+/* Style for each box */
+.buttons {
+  border: 1px solid #000;
+  margin: auto; 
+  justify-content: center;
+  background-color: #ffffff;
+  width: 100px;
+  border-radius: 10px;
+}
+.cool{
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  background-color: var(--MyGreen);
+  width: 300px;
+}
+legend{
+  font-size: 20px;
+}
+fieldset{
+  background-color: var(--MyYellow);
+  justify-content: center;
+  width: 350px;
+  margin: auto;
+}
